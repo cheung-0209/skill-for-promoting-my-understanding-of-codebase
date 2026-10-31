@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{TITLE}}</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">{{SKIP}}</a>
+  <nav class="nav" aria-label="{{NAV_LABEL}}">
+    <div class="progress-bar" id="progress-bar" role="progressbar" aria-label="{{PROGRESS}}" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    <div class="nav-inner">
+      <span class="nav-title">{{TITLE}}</span>
+      <div class="nav-dots" id="nav-dots">{{NAV_DOTS}}</div>
+    </div>
+  </nav>
+  <main id="main" tabindex="-1">
